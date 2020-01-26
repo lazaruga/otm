@@ -29,6 +29,6 @@
         "data/openacademy_data.xml",
     ],
     # only loaded in demonstration mode
-    'demo':        [],
+    #'demo':        [],
     'license': 'AGPL-3',
 }
