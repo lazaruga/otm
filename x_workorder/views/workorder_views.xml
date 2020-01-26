@@ -24,7 +24,7 @@
 
     	<menuitem id="workorder_menu"
 	    name = "workorder_menu"
-            action ="action_workorder"/>
+				  action ="action_workorder"/>
 
 
 </odoo>
