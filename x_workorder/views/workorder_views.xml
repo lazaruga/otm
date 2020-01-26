@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+	<record id='action_workorder' model='ir.actions.act_window'>
+		<field name="name">action_workorder</field>
+		<field name="res_model">workorder</field>
+		<field name="view_mode">tree,form</field>
+	</record>
+
+
+    	<record id="workorder_view_form" model="ir.ui.view">
+        	<field name="name">workorder.view.form</field>
+        	<field name="model">workorder</field>
+        	<field name="view_mode">form</field>
+        	<field name="arch" type="xml">
+			<form string="Work Orders">
+            			<field name = "id_workorder"/>
+				<field name = "date_workorder"/>
+				<field name = "project_ids"/>
+			</form>
+        	</field>
+    	</record>
+
+    	<menuitem id="workorder_menu"
+	    name = "workorder_menu"
+            action ="action_workorder"/>
+
+
+</odoo>
+
+
